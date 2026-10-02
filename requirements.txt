@@ -1,0 +1,26 @@
+# Core
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.4
+scipy>=1.11
+
+# Indonesian NLP
+nltk>=3.8
+Sastrawi>=1.0.1
+
+# Excel I/O (.xlsx needs openpyxl, legacy .xls needs xlrd)
+openpyxl>=3.1
+xlrd>=2.0.1
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+
+# Notebooks
+nbformat>=5.9
+nbclient>=0.9
+nbconvert>=7.10
+ipykernel>=6.28
+
+# Testing
+pytest>=8.0
