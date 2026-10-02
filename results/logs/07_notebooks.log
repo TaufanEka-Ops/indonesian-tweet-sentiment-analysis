@@ -1,0 +1,5 @@
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+executed -> /home/heisenberg/portfolio-rework/repos/indonesian-tweet-sentiment-analysis/notebooks/01_novel_baswedan_eda.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+executed -> /home/heisenberg/portfolio-rework/repos/indonesian-tweet-sentiment-analysis/notebooks/02_modi_sentiment_model.ipynb
+EXIT=0

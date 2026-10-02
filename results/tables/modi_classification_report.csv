@@ -1,0 +1,4 @@
+label,label_name,precision,recall,f1,support,macro_avg
+-1,negative,0.6714,0.6078,0.638,232,
+0,neutral,0.7089,0.7547,0.7311,371,
+1,positive,0.7443,0.741,0.7427,444,

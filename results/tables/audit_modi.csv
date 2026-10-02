@@ -1,0 +1,14 @@
+metric,value
+rows_loaded,5325.0
+rows_dropped_missing_text,1.0
+rows_usable,5324.0
+n_classes,3.0
+class__-1_negative,1170.0
+class__0_neutral,1909.0
+class__1_positive,2245.0
+majority_class_share,0.4217
+duplicate_texts,49.0
+rows_with_mojibake,595.0
+rows_with_contact_pii,5.0
+mean_chars,123.0
+max_chars,270.0

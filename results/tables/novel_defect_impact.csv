@@ -1,0 +1,12 @@
+metric,value
+rows_total,2727.0
+rows_with_any_mention,2510.0
+rows_with_multiple_mentions,634.0
+mentions_total,3616.0
+original_stripped_total,2517.0
+original_left_behind_total,1099.0
+fixed_left_behind_total,0.0
+rows_original_got_wrong,627.0
+retweet_share,0.8676200953428677
+duplicate_texts,2136.0
+duplicate_share,0.7832783278327833

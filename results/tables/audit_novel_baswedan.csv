@@ -1,0 +1,15 @@
+metric,value
+rows,2727.0
+unique_ids,2710.0
+duplicate_ids,17.0
+duplicate_texts,2136.0
+duplicate_text_share,0.7833
+retweets,2366.0
+retweet_share,0.8676
+rows_with_url,2242.0
+rows_with_hashtag,1514.0
+rows_with_>=1_mention,2510.0
+rows_with_>=2_mentions,634.0
+mentions_total,3616.0
+rows_with_contact_pii,0.0
+mean_chars,234.94

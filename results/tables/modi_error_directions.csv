@@ -1,0 +1,7 @@
+direction,count,share_of_errors
+positive -> neutral,74,0.2492
+neutral -> positive,63,0.2121
+negative -> positive,50,0.1684
+negative -> neutral,41,0.138
+positive -> negative,41,0.138
+neutral -> negative,28,0.0943

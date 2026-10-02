@@ -1,0 +1,5 @@
+method,seconds,ms_per_1k_rows,mentions_left_behind,correct,note
+np.vectorize(remove_pattern_original),0.1083,1.99,21980,False,original bug: first mention only
+np.vectorize(strip_mentions),0.0636,1.17,0,True,"correct logic, but still a Python-level loop"
+list comprehension,0.0552,1.01,0,True,"same scalar fn, no numpy wrapper"
+pandas .str.replace (vectorized regex),0.9432,17.29,0,True,no per-row Python call

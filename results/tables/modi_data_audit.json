@@ -1,0 +1,41 @@
+{
+  "rows_loaded": 5324,
+  "dropped_missing_text": 1,
+  "rows_with_mojibake": 595,
+  "pii_rows_dropped": 5,
+  "pii_hits": [
+    {
+      "row_index": 1076,
+      "emails": "",
+      "phones": "9646741311;mbl 9646741311"
+    },
+    {
+      "row_index": 2814,
+      "emails": "",
+      "phones": "05852234246;number 05852234246"
+    },
+    {
+      "row_index": 3372,
+      "emails": "",
+      "phones": "20190147792"
+    },
+    {
+      "row_index": 3484,
+      "emails": "",
+      "phones": "916385859493;number 916385859493"
+    },
+    {
+      "row_index": 4292,
+      "emails": "",
+      "phones": "9426216831;call 9426216831"
+    }
+  ],
+  "rows_empty_after_clean": 3,
+  "duplicate_rows_dropped": 84,
+  "rows_final": 5232,
+  "class_counts": {
+    "negative": 1158,
+    "neutral": 1855,
+    "positive": 2219
+  }
+}

@@ -1,0 +1,5 @@
+model,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,weighted_f1_mean,weighted_f1_std,fit_seconds
+linear_svc,0.7343,0.0124,0.7198,0.0119,0.733,0.0122,1.62
+logistic_regression,0.7297,0.0125,0.7158,0.0126,0.7293,0.0122,163.477
+naive_bayes,0.6243,0.0136,0.5773,0.0149,0.6045,0.0145,1.339
+majority_baseline,0.4241,0.0004,0.1985,0.0001,0.2526,0.0004,1.278

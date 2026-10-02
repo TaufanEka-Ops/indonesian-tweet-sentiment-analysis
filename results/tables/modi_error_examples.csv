@@ -1,0 +1,31 @@
+text,true,pred,correct,true_name,pred_name,confusion
+ways adani project stands gain sez status,0,1,False,neutral,positive,0->1
+went tag celebrities ask respective fans vote coming election,0,-1,False,neutral,negative,0->-1
+pls dont beg tagging tat neeed something concrete society unfortunately tweets rubbish pappu making advertisement tats modi ignored,-1,0,False,negative,neutral,-1->0
+modi bjp rss rule narrative responsibility opposition nehru,0,1,False,neutral,positive,0->1
+trying say modi afraid vendetta charge opposition seat agar election time action lia dukhane badle press conference karni pad rahi kyu chune aisi majboor sarkar election time lage aaropo koi kyu sach manega,-1,0,False,negative,neutral,-1->0
+gathbandhan agenda defeat modi development modi crore indians integrated development india fellows joining hands basis caste creed dynasty religion regionalism shame,0,1,False,neutral,positive,0->1
+council patroninchief ramesh kumar vankwani sunday asked refrain interfering pakistan internal affairs,0,-1,False,neutral,negative,0->-1
+compared experienced modi led bjp rule past years cake walk rahul gets equal mandate like modi modi led bjp destroyed realistic growth india must fall defeated stronger better india,1,-1,False,positive,negative,1->-1
+modi govt provided lpg connections ujjwala yojana helping women families get rid health issues caused indoor air pollution via namo app,0,1,False,neutral,positive,0->1
+larger blame increasing pollution congestion delhi min modi minister adamant decision increasing metro fare opposed govt money making decision costed delhi metro lost lakh commuters,1,0,False,positive,neutral,1->0
+passed expected modi government,-1,0,False,negative,neutral,-1->0
+nothing salesman narendra modi,1,0,False,positive,neutral,1->0
+khejrival said absolute truth going happen rss led modi comes power end democratic system elections advent dictatorship whose signs already visible,1,-1,False,positive,negative,1->-1
+thy knw thy looters traiters fair elections conducted bjp rss modi mafia gang vanish frm earth,1,0,False,positive,neutral,1->0
+sir impress brought notice voter action tirugu batu called vennu potu ycpmusugu loo kedikcrchormodi real vennu potudhroham crs jagan helping kedikcr avoid one lakh crores krishna godavari waters due,1,-1,False,positive,negative,1->-1
+gautam adani gets rule changed sez days lok sabha elections announced chowkidar adani every indian knows,-1,1,False,negative,positive,-1->1
+needs message karyakartas,0,1,False,neutral,positive,0->1
+seen every minute family people died poverty modis regime killing people dancing graves celebration black comedy,-1,1,False,negative,positive,-1->1
+guy truely something else,1,0,False,positive,neutral,1->0
+sir whether one likes opposition made election modi losing plot media like become election voter forced decide chose modi,-1,0,False,negative,neutral,-1->0
+ask questions question dont make patriot right ask questions see tweet activity asked questions modibjpgovernment several times asking questions little knowledge idiotic,-1,1,False,negative,positive,-1->1
+comedian indulging politics wasnt modi whos depriving comedian comedy rahul gandhi whos threatening friends bread butter,0,1,False,neutral,positive,0->1
+modi prime minister common people campaigning forced come comfort zone campaign brother,-1,0,False,negative,neutral,-1->0
+lies modi exposed facts,0,1,False,neutral,positive,0->1
+make country joke hamara shri narendra modi,0,1,False,neutral,positive,0->1
+modi gave rs wasnt disastrous idea modi increased reservation wasnt disastrous idea income tax paying class time money poorest really great idea,-1,1,False,negative,positive,-1->1
+anything congress says immediate reaction opinions counter opinions modi talks crap lies follows jhumlas guys say nothing,-1,0,False,negative,neutral,-1->0
+whatever nonsense modi confirmed,1,0,False,positive,neutral,1->0
+congress years wasnt able complete one rafale deal bjp years already completed rafale deal delivery rafales start sept already started proceedings another fighter jet deal congress say modi hacked evms,1,0,False,positive,neutral,1->0
+cambridge analytica sends money spewing venom modi stealing vote dynasts alliance naturally salaries employee stick real job andhera prakash raj another paid modi hater bites dust,1,0,False,positive,neutral,1->0

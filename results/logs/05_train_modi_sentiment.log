@@ -1,0 +1,71 @@
+==============================================================================
+DATA PREPARATION AUDIT (nothing dropped silently)
+==============================================================================
+rows_loaded                 : 5324
+dropped_missing_text        : 1
+rows_with_mojibake          : 595
+pii_rows_dropped            : 5
+pii_hits                    : 5 row(s) -> [{'row_index': 1076, 'emails': '', 'phones': '9646741311;mbl 9646741311'}, {'row_index': 2814, 'emails': '', 'phones': '05852234246;number 05852234246'}, {'row_index': 3372, 'emails': '', 'phones': '20190147792'}, {'row_index': 3484, 'emails': '', 'phones': '916385859493;number 916385859493'}, {'row_index': 4292, 'emails': '', 'phones': '9426216831;call 9426216831'}]
+rows_empty_after_clean      : 3
+duplicate_rows_dropped      : 84
+rows_final                  : 5232
+class_counts                : {'negative': 1158, 'neutral': 1855, 'positive': 2219}
+
+--- Label distribution ---
+ category label_name  count  share
+       -1   negative   1158 0.2213
+        0    neutral   1855 0.3545
+        1   positive   2219 0.4241
+
+majority class positive = 42.4% of rows -> a model that always predicts it scores 42.4% accuracy but only macro-F1 0.199 (one class F1, two classes 0).
+
+==============================================================================
+REPEATED STRATIFIED CROSS-VALIDATION (5 folds x 3 repeats = 15 fits)
+==============================================================================
+              model  accuracy_mean  accuracy_std  macro_f1_mean  macro_f1_std  weighted_f1_mean  weighted_f1_std  fit_seconds
+         linear_svc         0.7343        0.0124         0.7198        0.0119            0.7330           0.0122        1.620
+logistic_regression         0.7297        0.0125         0.7158        0.0126            0.7293           0.0122      163.477
+        naive_bayes         0.6243        0.0136         0.5773        0.0149            0.6045           0.0145        1.339
+  majority_baseline         0.4241        0.0004         0.1985        0.0001            0.2526           0.0004        1.278
+
+Total CV wall time: 169.6s
+
+Best macro-F1 beats majority baseline by +0.5213
+  majority_baseline      macro-F1 0.1985 +/- 0.0001
+  naive_bayes            macro-F1 0.5773 +/- 0.0149
+  logistic_regression    macro-F1 0.7158 +/- 0.0126
+  linear_svc             macro-F1 0.7198 +/- 0.0119
+
+==============================================================================
+STRATIFIED HELD-OUT TEST SET (80/20) -- best model
+==============================================================================
+Best CV model: linear_svc
+
+Held-out metrics:
+  accuracy      : 0.7163
+  macro_f1      : 0.7039
+  weighted_f1   : 0.7154
+  cohen_kappa   : 0.5587
+  macro-F1 95% bootstrap CI: [0.6760, 0.7321]
+
+Per-class:
+ label label_name  precision  recall     f1  support macro_avg
+    -1   negative     0.6714  0.6078 0.6380      232      None
+     0    neutral     0.7089  0.7547 0.7311      371      None
+     1   positive     0.7443  0.7410 0.7427      444      None
+
+Confusion matrix (rows = actual, cols = predicted):
+         pred_-1  pred_0  pred_1
+true_-1      141      41      50
+true_0        28     280      63
+true_1        41      74     329
+
+==============================================================================
+TOP FEATURES PER CLASS (Logistic Regression)
+==============================================================================
+  negative : poor, fake, hate, corrupt, failed, wrong, bad, stupid, idiot, failure, due, game
+  neutral  : modi, another, governor, lose, literally, terrorism, islamic, attention, airline, question modi, like modi, father
+  positive : good, best, first, better, new, great, many, right, win, true, much, wants
+
+Wrote tables to /home/heisenberg/portfolio-rework/repos/indonesian-tweet-sentiment-analysis/results/tables
+Wrote figures to /home/heisenberg/portfolio-rework/repos/indonesian-tweet-sentiment-analysis/results/figures
